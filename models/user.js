@@ -18,7 +18,7 @@ const userSchema = mongoose.Schema({
     maxlength: 50,
   },
   role: {
-    type: number,
+    type: Number,
     default: 0, //롤을 넣는이유 레벨지정(회원관리) ,default는 안줬을때0주는것
   },
   image: {
